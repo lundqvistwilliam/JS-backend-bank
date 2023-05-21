@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="headerTitle">Ankademin Bank</h1>
+        <a href="/start">Start</a>
+        <a href="/add">Add</a>
+    </header>
+    <form action="/api/account" method="POST" id="addBankAccountForm">
+        <label for="name">First & Lastname</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Firstname Lastname">
+        <br>
+        <label for="balance">Balance $</label>
+        <br>
+        <input type="number" id="balance" name="balance" placeholder="Balance ex. 20">
+        <br>
+        <button>Submit</button>
+    </form>
+    <script src="add.js"></script>
+</body>
+</html>

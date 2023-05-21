@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+header {
+    width: 100%;
+    height: 8vh;
+    background: rgb(91,152,215);
+    background: linear-gradient(90deg, rgba(91,152,215,1) 63%, rgba(60,109,241,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#bankAccountsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.account-item {
+    border: 1px solid black;
+    padding: 6px;
+    width: 50%;
+    margin: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+#removeBtn {
+    background-color: tomato;
+}
+
+#removeBtn:hover {
+    background-color: red;
+}
+
+#remove-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+#addBankAccountForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button {
+    width: 110px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.fa-solid.fa-building-columns {
+    color:white;
+  }
